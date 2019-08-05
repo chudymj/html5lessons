@@ -3,6 +3,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+/*img {max-width: 100%;}*/
 h1 {font-size: 2em;}
 h2 {font-size: 1.5em;}
 h1, h2 {font-weight: bold; margin: 5px 0;}
@@ -19,9 +20,11 @@ header {margin-top: 10px;}
   footer {clear: both;}
 }
 #fullpage {max-width: 63em; margin: auto;}
-article img {float: right; padding-left: 3%; padding-bottom: 10px;}
-article img {width: 50%;}
-@media only screen and (max-width:30em){
-  article img {width: auto; float: none; padding-left: 0;}
-
+/*article img {float: right; padding-left: 3%; padding-bottom: 10px;}
+article img {width: 50%;}*/
+@media only screen and (min-width:28em){
+  /*article img {width: auto; float: none; padding-left: 0;}*/
+  article img {float: right; padding-left: 3%; padding-bottom: 10px; width: 50%;}
 }
+article img {max-width: 100%;}
+header {background-image: url(../obrazy/pandabanner.png);}
