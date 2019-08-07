@@ -27,4 +27,4 @@ article img {width: 50%;}*/
   article img {float: right; padding-left: 3%; padding-bottom: 10px; width: 50%;}
 }
 article img {max-width: 100%;}
-header {background-image: url(../obrazy/pandabanner.png);}
+header {background-image: url(../obrazy/pandabanner.png); background-position: center top;}
